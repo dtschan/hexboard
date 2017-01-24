@@ -152,7 +152,7 @@ hex.board = (function board(d3, Rx) {
         .attr('y', -point.y + honeycomb.size);
 
       pattern.append('image')
-        .attr('xlink:href', '/img/redhat.svg')
+        .attr('xlink:href', 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Chur_-_GR_-_Postbus.jpg')
         .attr('width', (honeycomb.cols - 1) * honeycomb.spacing.x)
         .attr('height', (honeycomb.rows - 1) * honeycomb.spacing.y)
         .attr('x', -point.x + 2 * honeycomb.spacing.x)
